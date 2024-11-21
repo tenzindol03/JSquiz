@@ -1,0 +1,98 @@
+/* Google Font Import */
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body {
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+    color: #333333;
+    font-weight: 300;
+    text-align: center;
+    background-color: #FAD1D1;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #89CFF0;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 32px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    width: 100%;
+}
+
+#timer {
+    font-size: 24px;
+    background: #f8f6f0;
+    color: #333;
+    padding: 10px;
+    border: 2px solid rgb(238, 54, 128);
+    border-radius: 5px;
+}
+
+.quiz-container {
+    margin: 40px auto;
+    max-width: 600px;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.question {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.answers {
+    margin-bottom: 20px;
+    text-align: left;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.answers label {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+button {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    background-color:rgb(238, 54, 128);
+    color: #fff;
+    border: 0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color:#FFB6C1;
+}
+
+.slide {
+    display: none;
+}
+
+.active-slide {
+    display: block;
+}
+
+#results {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 24px;
+    margin-top: 20px;
+    color: #2969e0;
+}
